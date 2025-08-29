@@ -2,7 +2,7 @@ function fno0(){
 
     let previous= document.getElementById('display').innerHTML; //variable called previous declared to the innerhtml of respective id "display"
 
-    document.getElementById('display').innerHTML= previous + 0; //previous + 0 is added /appends to the id "display" upon onclick
+    document.getElementById('display').innerHTML=previous+0; //previous + 0 is added /appends to the id "display" upon onclick
 
 }
  //liekwise this is been added to the next few digits (0-9) when relevant number buttons are clicked
